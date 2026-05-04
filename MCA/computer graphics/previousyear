@@ -1,1 +1,137 @@
 
+I have carefully re-examined all four pages provided in the images to ensure every single question is captured and organized by the specific academic year and paper code.
+
+### **MCA (SEM IV) Theory Examination 2024-25**
+**Subject Code: KCA052**
+
+**Section A (Attempt all questions in brief - 2 marks each)**
+*   **a.** How do Raster Scan Displays work?
+*   **b.** What is frame buffer? What is the role of a Video Controller?
+*   **c.** Write short note on Back Face Detection algorithm.
+*   **d.** List the operating characteristics for the following display technologies: raster refresh systems and vector refresh systems.
+*   **e.** List some applications appropriate for Plasma and LCD display technologies.
+*   **f.** Consider three different raster systems with resolutions of $640 \times 480$, $1280 \times 1024$ and $2560 \times 2048$. What size is frame buffer (in bytes) for each of these systems to store 12 bits per pixel?
+*   **g.** Write the basic geometric transformations.
+*   **h.** Find the transformation that scales (with respect to origin) by simultaneously $a$ units in the X-direction and $b$ units in the Y-direction.
+*   **i.** What are differences between Gouraud and Phong shading?
+*   **j.** What is meant by anti-aliasing? Write two methods used to develop anti-aliasing routines.
+
+**Section B (Attempt any three - 10 marks each)**
+*   **a.** Derive the expression for the line having slope greater than 1 ($m > 1$) i.e. the line lies in second octant using Bresenham's line drawing algorithm. Approximate the intermediate points on the line between the points (2, 2) to (5, 10).
+*   **b.** Magnify the triangle with vertices A(0,0), B(1,1) and C(5,2) to twice its size while keeping C(5,2) fixed.
+*   **c.** Obtain the expression of composite transformation matrix for rotation about an arbitrary axis in space.
+*   **d.** What do you understand by z-buffer algorithm?
+*   **e.** What are different types of CRT display devices? Write its disadvantages.
+
+**Section C (Attempt any one part - 10 marks each)**
+*   **3. a.** An arbitrary shaped polygon in 2-D has been transformed, the transformation matrix T have the parameters $a, b, c, d$. Prove that the area of the transformed structure is equal to the area of old polygon multiplied by determinant of the matrix. (i.e. the existing area multiplied by the determinant of transformation matrix will give the area of the transformed or the new structure.)
+*   **3. b.** Define tilting as rotation about the x-axis followed by the rotation about the y-axis. Find the final matrix after tilting. Does the order of performing the rotation matter?
+*   **4. a.** Obtain the general form of matrix for reflection about a line L, having slope $m$ and $y$ intercept $c$. The matrix should be expressed in terms of slope of the line i.e. $m$.
+*   **4. b.** Use the Cohen-Sutherland algorithm to clip line P1(70, 20) and P2(100, 10) against a window: lower left hand corner (50, 10) and upper right hand corner (80, 40).
+*   **5. a.** Define the following terms in coordinate system: (i) Screen Coordinates (ii) World Coordinates (iii) Window (iv) Viewport. Find the transformation matrix that maps the window in world coordinates to the viewport in screen coordinates.
+*   **5. b.** Explain Bezier curves, their mathematical formulation, properties, and limitations.
+*   **6. a.** Triangle is defined by $\begin{bmatrix} 2 & 4 \\ 4 & 4 \\ 2 & 2 \end{bmatrix}$. Find the transformed coordinates after the following transformation: (i) 90° rotation about origin (ii) Reflection about line $y = -x$.
+*   **6. b.** Explain the concept of Blobby objects in computer graphics. How do they model organic shapes, and what mathematical principles are used?
+*   **7. a.** Prove that simultaneous shearing in both direction (X & Y direction) is not equal to the composition of pure shear along x-axis followed by pure shear along y-axis.
+*   **7. b.** What are the fundamental principles, elements of animations, and their usage?
+
+---
+
+### **MCA (SEM IV) Theory Examination 2022-23**
+**Subject Code: KCA452**
+
+**Section A (2 marks each)**
+*   **a.** Define Random Scan/Raster Scan displays.
+*   **b.** What is Aspect Ratio?
+*   **c.** What is Scaling?
+*   **d.** Distinguish between window and viewport.
+*   **e.** What is view plane normal vector?
+*   **f.** What is the use of control points?
+*   **g.** What are the types of reflection of incident light?
+*   **h.** Define shading.
+*   **i.** Define frame.
+*   **j.** Define complementary colors.
+
+**Section B (10 marks each)**
+*   **a.** Calculate the pixel location approximating the first octant of a circle having centre at (4, 5) and radius 4 units using Bresenham's algorithm.
+*   **b.** Explain the following composite transformations: (i) Translation (ii) Rotation.
+*   **c.** With suitable examples explain all 3D transformations.
+*   **d.** What is illumination? What are the various types of illumination?
+*   **e.** What is tweening? Explain in detail about motion tween with an example.
+
+**Section C (10 marks each)**
+*   **3. a.** Explain in detail about the Line drawing DDA scan conversion algorithm.
+*   **3. b.** Explain refresh CRT and color CRT monitors.
+*   **4. a.** Explain in detail about two dimensional viewing.
+*   **4. b.** Write about Cohen-Sutherland line clipping algorithm with an example.
+*   **5. a.** Write short notes on Bezier curve and spline.
+*   **5. b.** Discuss any one of the visible surface detection method.
+*   **6. a.** Explain in detail the CMY color model.
+*   **6. b.** Discuss in detail Gouraud shading.
+*   **7. a.** What is Animation? Describe the various animation techniques.
+*   **7. b.** What is storyboarding? Discuss in detail.
+
+---
+
+### **MCA (SEM IV) Theory Examination 2021-22**
+**Subject Code: KCA052**
+
+**Section A (2 marks each)**
+*   **a.** Define frame buffer.
+*   **b.** Differentiate between Raster scan systems and Random scan systems.
+*   **c.** Illustrate the term viewing.
+*   **d.** How Interior clipping is different from Exterior clipping?
+*   **e.** Distinguish between Orthographic and Oblique projections.
+*   **f.** Give the advantage of using B-spline curves over Bezier curves.
+*   **g.** What is Transparency and Shadow in context to illumination models?
+*   **h.** Why Ambient light is called as background light?
+*   **i.** List the different file formats used in animation.
+*   **j.** Outline the advantages of using computer animation instead of traditional animation.
+
+**Section B (10 marks each)**
+*   **a.** Scan convert a line segment having end points A(12, 15) and B(20, 15) by applying Digital Differential Analyzer (DDA) algorithm.
+*   **b.** Scale a rectangle by reducing its size to half having coordinates P(10, 10), R(40, 10), S(40, 30) and T(10, 30). Find the resultant coordinates of transformed rectangle about the origin.
+*   **c.** Define mathematically, Sphere and Ellipsoid in context to quadratic surfaces.
+*   **d.** What is Back face detection algorithm? How it can be used to identify back face of an object?
+*   **e.** Define the term animation and also discuss the applications of animation.
+
+**Section C (10 marks each)**
+*   **3. a.** Draw a line segment by applying Bresenham's line drawing algorithm. The endpoints of line segment are X(1,1) and Y(10,9). Also plot the pixels.
+*   **3. b.** What is octant symmetry in circle? Discuss Mid-point circle algorithm to draw a circle having radius $r=5$ and center $xc=100$ and $yc=200$.
+*   **4. a.** What is reflection? Reflect a triangle having vertices A(2,4) B(1,3) and C(4,3) about a line $Y=X+1$. Find the new vertices of the object.
+*   **4. b.** Define the term clipping? Clip a given line segment AB as shown in figure by applying Cohen-Sutherland line clipping algorithm.
+*   **5. a.** Discuss the way to display 3D object on 2D view plane. Apply orthographic parallel projection for the given cube and find the projected coordinated of the cube.
+*   **5. b.** Given below is the Bezier curve having four control points. Find points on the curve that correspond to $u = 0.25, 0.5$ and $0.75$.
+*   **6. a.** Discuss Depth buffer method algorithm for displaying visible surfaces. Why it is called as depth-buffer method?
+*   **6. b.** Define Diffuse reflection. Calculate total intensity of light reflected from rough surface by considering ambient light for illuminating the surfaces of an object.
+*   **7. a.** Illustrate the use of Storyboard in animation; also discuss the concept of key framing.
+*   **7. b.** What are the different techniques of animations? Describe each of them by taking suitable example.
+
+---
+
+### **Section from Miscellaneous/Partial Image (image_667823.jpg / image_6674e5.jpg overlap)**
+*   **1. a.** What is Computer Graphics?
+*   **1. b.** Write any two applications of computer graphics.
+*   **1. c.** What do you mean by reflection?
+*   **1. d.** What is viewing?
+*   **1. e.** Define vanishing point in terms of projection.
+*   **1. f.** Define Blobby objects.
+*   **1. g.** What is diffuse reflection?
+*   **1. h.** What do you mean by Intensity Attenuation?
+*   **1. i.** What is image?
+*   **1. j.** Define linear multimedia.
+*   **2. a.** How image is to be displayed on Video Display Device? Discuss.
+*   **2. b.** Perform mapping from Window to Viewport Coordinate transformation.
+*   **2. c.** Explain Projection with the help of Orthographic projection.
+*   **2. d.** Compare all visible surface detection methods.
+*   **2. e.** Explain Animation with Character Animation.
+*   **3. a.** Explain the method of circle drawing using Midpoint Circle Algorithm.
+*   **3. b.** Distinguish between Active and Passive graphics device.
+*   **4. a.** Using homogeneous coordinate transformation matrix, apply following sequence of transformation to a unit square centered at origin: Translation by factor (1, 1), Rotation by angle $\theta = 90^\circ$.
+*   **4. b.** Obtain the general combined matrix for scaling about an Fixed Point $P(xf, yf)$.
+*   **5. a.** Write a note on B-Spline Curves.
+*   **5. b.** Construct Bezier curve of order 3, with 4 polygon vertices A(1, 1), B(2, 3), C(4, 3), D(6, 4) for values of $u$. $0 \le u \le 1$ where $P(u)$ is a point on curve with values for $u = (0, 1/4, 1/2, 3/4, 1)$.
+*   **6. a.** Explain Z-buffer algorithm with advantages and disadvantages.
+*   **6. b.** Write a note on transparency and Shadows.
+*   **7. a.** Explain different file formats of an image.
+*   **7. b.** Distinguish key frame animation with procedural animation.
